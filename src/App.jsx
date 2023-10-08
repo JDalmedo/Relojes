@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import DigitalClock from './components/DigitalClock/DigitalClock'
+import Countdown from './components/CountDown/CountDown'
 
 const App = () => {
 
@@ -9,6 +10,7 @@ const App = () => {
   return (
     <>
       <DigitalClock />
+      <Countdown/>
     </>
   )
 }

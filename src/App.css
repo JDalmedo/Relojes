@@ -3,3 +3,18 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.digital-clock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 200px;
+  margin: 50px;
+  background-color: black;
+  border-radius: 10px;
+}
+h2 {
+  color: aqua;
+  font-size: 30px;
+}
